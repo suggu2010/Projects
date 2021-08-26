@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding-top: 800px;
+}
+
+#Home {
+    padding-top: 30px;
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: red;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color: coral
+}
+
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: coral;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: coral;
+}
+
+#Bio {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#menu {
+    width: 100%;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: White;
+}
+
+#links {
+    display: inline;
+    Color: white;
+
+    padding-left: 33px;
+    padding-right: 25px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+p {
+
+    Font-size: 20px;
+    Font-family: Arial;
+    color: chocolate;
+
+}
+
+.line {
+    margin: 8px auto;
+    height: 6px;
+    width: 70px;
+    background-color: red;
+}
+
+#Batches {
+    padding: 50px;
+}
+
+#Faculties {
+    padding: 50px;
+}
+
+#Contact {
+    padding: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#links:hover {
+    color: blue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    text-shadow: 2px 2px grainsboro;
+}
+
+#Batches a {
+    text-shadow: none;
+    text-decoration: underline;
+    color: red;
+}
+
+#Contact {
+    background-color: coral;
+    left: 100;
+    right: 100;
+    top: 400;
+    bottom: 200;
+
+}
+
+.Contact_1 a {
+    color: white;
+    text-shadow: none;
+
+}
+
+.Contact_1 h3 {
+    display: inline;
+    color: red;
+
+}
+
+iframe {
+    width: 100%;
+}
+
+#Bio,
+#Batches,
+#Faculties {
+    background-color: darkmagenta;
+}
